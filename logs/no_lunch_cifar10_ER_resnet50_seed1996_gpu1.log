@@ -1,0 +1,51 @@
+wandb: Using wandb-core as the SDK backend.  Please refer to https://wandb.me/wandb-core for more information.
+wandb: Currently logged in as: pqy000 (pqythu) to https://api.wandb.ai. Use `wandb login --relogin` to force relogin
+wandb: Tracking run with wandb version 0.19.9
+wandb: Run data is saved locally in /home/panqy/A10/lunch/wandb/run-20250424_132834-dlim6rxf
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run dark-breeze-3
+wandb: ⭐️ View project at https://wandb.ai/pqythu/my_cl_project_cifar10
+wandb: 🚀 View run at https://wandb.ai/pqythu/my_cl_project_cifar10/runs/dlim6rxf
+wandb: WARNING Calling wandb.run.save without any arguments is deprecated.Changes to attributes are automatically persisted.
+wandb: uploading data; uploading output.log; uploading wandb-summary.json
+wandb: uploading data
+wandb: uploading history steps 10-15, summary, console lines 14-21
+wandb:                                                                                
+wandb: 
+wandb: Run history:
+wandb: Final/AAA ▁
+wandb: Final/FAA ▁
+wandb: Final/WCA ▁
+wandb:       acc █▆▇▅▄▇▁▂▃█▅▂▂▅█
+wandb: 
+wandb: Run summary:
+wandb: Final/AAA 0.82523
+wandb: Final/FAA 0.756
+wandb: Final/WCA 0.7099
+wandb:       acc 97.05
+wandb: 
+wandb: 🚀 View run ER_resnet50 at: https://wandb.ai/pqythu/my_cl_project_cifar10/runs/dlim6rxf
+wandb: ⭐️ View project at: https://wandb.ai/pqythu/my_cl_project_cifar10
+wandb: Synced 5 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
+wandb: Find logs at: ./wandb/run-20250424_132834-dlim6rxf/logs
+Files already downloaded and verified
+Files already downloaded and verified
+Parameters: 23.53M
+[No-Lunch] T0, test T0, model=resnet50, method=ER, ACC=97.90%
+[No-Lunch] T1, test T0, model=resnet50, method=ER, ACC=82.75%
+[No-Lunch] T1, test T1, model=resnet50, method=ER, ACC=90.95%
+[No-Lunch] T2, test T0, model=resnet50, method=ER, ACC=76.55%
+[No-Lunch] T2, test T1, model=resnet50, method=ER, ACC=74.45%
+[No-Lunch] T2, test T2, model=resnet50, method=ER, ACC=93.85%
+[No-Lunch] T3, test T0, model=resnet50, method=ER, ACC=54.90%
+[No-Lunch] T3, test T1, model=resnet50, method=ER, ACC=59.70%
+[No-Lunch] T3, test T2, model=resnet50, method=ER, ACC=70.00%
+[No-Lunch] T3, test T3, model=resnet50, method=ER, ACC=98.00%
+[No-Lunch] T4, test T0, model=resnet50, method=ER, ACC=76.80%
+[No-Lunch] T4, test T1, model=resnet50, method=ER, ACC=60.85%
+[No-Lunch] T4, test T2, model=resnet50, method=ER, ACC=63.15%
+[No-Lunch] T4, test T3, model=resnet50, method=ER, ACC=80.15%
+[No-Lunch] T4, test T4, model=resnet50, method=ER, ACC=97.05%
+
+[No-Lunch final] model=resnet50, dataset=cifar10, method=ER
+FAA=75.60%, AAA=82.52%, WCA=70.99%

@@ -1,0 +1,20 @@
+Files already downloaded and verified
+Files already downloaded and verified
+[LUNCH] T0, ER+vit, normal => test T0 = 99.80%
+[LUNCH] T1, ER+vit, normal => test T0 = 97.05%
+[LUNCH] T1, ER+vit, normal => test T1 = 99.20%
+[LUNCH] T2, ER+vit, normal => test T0 = 96.20%
+[LUNCH] T2, ER+vit, normal => test T1 = 94.30%
+[LUNCH] T2, ER+vit, normal => test T2 = 99.35%
+[LUNCH] T3, ER+vit, normal => test T0 = 86.55%
+[LUNCH] T3, ER+vit, normal => test T1 = 82.80%
+[LUNCH] T3, ER+vit, normal => test T2 = 84.85%
+[LUNCH] T3, ER+vit, normal => test T3 = 99.85%
+[LUNCH] T4, ER+vit, normal => test T0 = 93.60%
+[LUNCH] T4, ER+vit, normal => test T1 = 79.30%
+[LUNCH] T4, ER+vit, normal => test T2 = 80.65%
+[LUNCH] T4, ER+vit, normal => test T3 = 99.15%
+[LUNCH] T4, ER+vit, normal => test T4 = 99.60%
+
+[LUNCH final (normal)] model=vit, ds=cifar10, method=ER
+FAA=90.46%, AAA=94.70%, WCA=89.05%

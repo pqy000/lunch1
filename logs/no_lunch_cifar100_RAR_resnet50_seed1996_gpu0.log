@@ -1,0 +1,244 @@
+wandb: Using wandb-core as the SDK backend.  Please refer to https://wandb.me/wandb-core for more information.
+wandb: Currently logged in as: pqy000 (pqythu) to https://api.wandb.ai. Use `wandb login --relogin` to force relogin
+wandb: Tracking run with wandb version 0.19.9
+wandb: Run data is saved locally in /home/panqy/A10/lunch/wandb/run-20250424_133041-ikghgvmx
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run lemon-water-6
+wandb: ⭐️ View project at https://wandb.ai/pqythu/my_cl_project_cifar100
+wandb: 🚀 View run at https://wandb.ai/pqythu/my_cl_project_cifar100/runs/ikghgvmx
+wandb: WARNING Calling wandb.run.save without any arguments is deprecated.Changes to attributes are automatically persisted.
+Files already downloaded and verified
+Files already downloaded and verified
+Parameters: 23.71M
+[No-Lunch] T0, test T0, model=resnet50, method=RAR, ACC=66.40%
+[No-Lunch] T1, test T0, model=resnet50, method=RAR, ACC=22.00%
+[No-Lunch] T1, test T1, model=resnet50, method=RAR, ACC=64.40%
+[No-Lunch] T2, test T0, model=resnet50, method=RAR, ACC=36.20%
+[No-Lunch] T2, test T1, model=resnet50, method=RAR, ACC=28.20%
+[No-Lunch] T2, test T2, model=resnet50, method=RAR, ACC=76.20%
+[No-Lunch] T3, test T0, model=resnet50, method=RAR, ACC=32.60%
+[No-Lunch] T3, test T1, model=resnet50, method=RAR, ACC=12.00%
+[No-Lunch] T3, test T2, model=resnet50, method=RAR, ACC=42.60%
+[No-Lunch] T3, test T3, model=resnet50, method=RAR, ACC=72.00%
+[No-Lunch] T4, test T0, model=resnet50, method=RAR, ACC=23.20%
+[No-Lunch] T4, test T1, model=resnet50, method=RAR, ACC=18.40%
+[No-Lunch] T4, test T2, model=resnet50, method=RAR, ACC=27.20%
+[No-Lunch] T4, test T3, model=resnet50, method=RAR, ACC=31.00%
+[No-Lunch] T4, test T4, model=resnet50, method=RAR, ACC=89.20%
+[No-Lunch] T5, test T0, model=resnet50, method=RAR, ACC=20.00%
+[No-Lunch] T5, test T1, model=resnet50, method=RAR, ACC=32.80%
+[No-Lunch] T5, test T2, model=resnet50, method=RAR, ACC=14.40%
+[No-Lunch] T5, test T3, model=resnet50, method=RAR, ACC=18.80%
+[No-Lunch] T5, test T4, model=resnet50, method=RAR, ACC=45.00%
+[No-Lunch] T5, test T5, model=resnet50, method=RAR, ACC=70.00%
+[No-Lunch] T6, test T0, model=resnet50, method=RAR, ACC=15.40%
+[No-Lunch] T6, test T1, model=resnet50, method=RAR, ACC=22.20%
+[No-Lunch] T6, test T2, model=resnet50, method=RAR, ACC=13.00%
+[No-Lunch] T6, test T3, model=resnet50, method=RAR, ACC=13.60%
+[No-Lunch] T6, test T4, model=resnet50, method=RAR, ACC=39.40%
+[No-Lunch] T6, test T5, model=resnet50, method=RAR, ACC=24.20%
+[No-Lunch] T6, test T6, model=resnet50, method=RAR, ACC=71.20%
+[No-Lunch] T7, test T0, model=resnet50, method=RAR, ACC=23.40%
+[No-Lunch] T7, test T1, model=resnet50, method=RAR, ACC=16.80%
+[No-Lunch] T7, test T2, model=resnet50, method=RAR, ACC=15.60%
+[No-Lunch] T7, test T3, model=resnet50, method=RAR, ACC=26.40%
+[No-Lunch] T7, test T4, model=resnet50, method=RAR, ACC=13.60%
+[No-Lunch] T7, test T5, model=resnet50, method=RAR, ACC=17.20%
+[No-Lunch] T7, test T6, model=resnet50, method=RAR, ACC=16.60%
+[No-Lunch] T7, test T7, model=resnet50, method=RAR, ACC=70.80%
+[No-Lunch] T8, test T0, model=resnet50, method=RAR, ACC=34.80%
+[No-Lunch] T8, test T1, model=resnet50, method=RAR, ACC=17.60%
+[No-Lunch] T8, test T2, model=resnet50, method=RAR, ACC=29.60%
+[No-Lunch] T8, test T3, model=resnet50, method=RAR, ACC=22.40%
+[No-Lunch] T8, test T4, model=resnet50, method=RAR, ACC=24.00%
+[No-Lunch] T8, test T5, model=resnet50, method=RAR, ACC=20.80%
+[No-Lunch] T8, test T6, model=resnet50, method=RAR, ACC=28.80%
+[No-Lunch] T8, test T7, model=resnet50, method=RAR, ACC=40.20%
+[No-Lunch] T8, test T8, model=resnet50, method=RAR, ACC=64.60%
+[No-Lunch] T9, test T0, model=resnet50, method=RAR, ACC=22.00%
+[No-Lunch] T9, test T1, model=resnet50, method=RAR, ACC=20.40%
+[No-Lunch] T9, test T2, model=resnet50, method=RAR, ACC=28.40%
+[No-Lunch] T9, test T3, model=resnet50, method=RAR, ACC=17.60%
+[No-Lunch] T9, test T4, model=resnet50, method=RAR, ACC=27.20%
+[No-Lunch] T9, test T5, model=resnet50, method=RAR, ACC=14.40%
+[No-Lunch] T9, test T6, model=resnet50, method=RAR, ACC=20.80%
+[No-Lunch] T9, test T7, model=resnet50, method=RAR, ACC=27.00%
+[No-Lunch] T9, test T8, model=resnet50, method=RAR, ACC=19.80%
+[No-Lunch] T9, test T9, model=resnet50, method=RAR, ACC=78.20%
+[No-Lunch] T10, test T0, model=resnet50, method=RAR, ACC=4.60%
+[No-Lunch] T10, test T1, model=resnet50, method=RAR, ACC=20.60%
+[No-Lunch] T10, test T2, model=resnet50, method=RAR, ACC=17.80%
+[No-Lunch] T10, test T3, model=resnet50, method=RAR, ACC=24.60%
+[No-Lunch] T10, test T4, model=resnet50, method=RAR, ACC=30.20%
+[No-Lunch] T10, test T5, model=resnet50, method=RAR, ACC=17.80%
+[No-Lunch] T10, test T6, model=resnet50, method=RAR, ACC=27.40%
+[No-Lunch] T10, test T7, model=resnet50, method=RAR, ACC=20.20%
+[No-Lunch] T10, test T8, model=resnet50, method=RAR, ACC=13.20%
+[No-Lunch] T10, test T9, model=resnet50, method=RAR, ACC=44.00%
+[No-Lunch] T10, test T10, model=resnet50, method=RAR, ACC=73.00%
+[No-Lunch] T11, test T0, model=resnet50, method=RAR, ACC=7.00%
+[No-Lunch] T11, test T1, model=resnet50, method=RAR, ACC=19.40%
+[No-Lunch] T11, test T2, model=resnet50, method=RAR, ACC=18.00%
+[No-Lunch] T11, test T3, model=resnet50, method=RAR, ACC=19.80%
+[No-Lunch] T11, test T4, model=resnet50, method=RAR, ACC=26.60%
+[No-Lunch] T11, test T5, model=resnet50, method=RAR, ACC=12.60%
+[No-Lunch] T11, test T6, model=resnet50, method=RAR, ACC=27.00%
+[No-Lunch] T11, test T7, model=resnet50, method=RAR, ACC=18.60%
+[No-Lunch] T11, test T8, model=resnet50, method=RAR, ACC=15.80%
+[No-Lunch] T11, test T9, model=resnet50, method=RAR, ACC=30.00%
+[No-Lunch] T11, test T10, model=resnet50, method=RAR, ACC=17.60%
+[No-Lunch] T11, test T11, model=resnet50, method=RAR, ACC=69.20%
+[No-Lunch] T12, test T0, model=resnet50, method=RAR, ACC=24.20%
+[No-Lunch] T12, test T1, model=resnet50, method=RAR, ACC=24.00%
+[No-Lunch] T12, test T2, model=resnet50, method=RAR, ACC=12.60%
+[No-Lunch] T12, test T3, model=resnet50, method=RAR, ACC=21.00%
+[No-Lunch] T12, test T4, model=resnet50, method=RAR, ACC=13.20%
+[No-Lunch] T12, test T5, model=resnet50, method=RAR, ACC=22.20%
+[No-Lunch] T12, test T6, model=resnet50, method=RAR, ACC=25.80%
+[No-Lunch] T12, test T7, model=resnet50, method=RAR, ACC=14.00%
+[No-Lunch] T12, test T8, model=resnet50, method=RAR, ACC=20.80%
+[No-Lunch] T12, test T9, model=resnet50, method=RAR, ACC=20.20%
+[No-Lunch] T12, test T10, model=resnet50, method=RAR, ACC=7.20%
+[No-Lunch] T12, test T11, model=resnet50, method=RAR, ACC=35.60%
+[No-Lunch] T12, test T12, model=resnet50, method=RAR, ACC=78.80%
+[No-Lunch] T13, test T0, model=resnet50, method=RAR, ACC=10.80%
+[No-Lunch] T13, test T1, model=resnet50, method=RAR, ACC=27.00%
+[No-Lunch] T13, test T2, model=resnet50, method=RAR, ACC=15.40%
+[No-Lunch] T13, test T3, model=resnet50, method=RAR, ACC=19.60%
+[No-Lunch] T13, test T4, model=resnet50, method=RAR, ACC=18.00%
+[No-Lunch] T13, test T5, model=resnet50, method=RAR, ACC=27.80%
+[No-Lunch] T13, test T6, model=resnet50, method=RAR, ACC=17.20%
+[No-Lunch] T13, test T7, model=resnet50, method=RAR, ACC=14.20%
+[No-Lunch] T13, test T8, model=resnet50, method=RAR, ACC=14.60%
+[No-Lunch] T13, test T9, model=resnet50, method=RAR, ACC=22.00%
+[No-Lunch] T13, test T10, model=resnet50, method=RAR, ACC=19.20%
+[No-Lunch] T13, test T11, model=resnet50, method=RAR, ACC=30.00%
+[No-Lunch] T13, test T12, model=resnet50, method=RAR, ACC=32.80%
+[No-Lunch] T13, test T13, model=resnet50, method=RAR, ACC=71.60%
+[No-Lunch] T14, test T0, model=resnet50, method=RAR, ACC=29.20%
+[No-Lunch] T14, test T1, model=resnet50, method=RAR, ACC=14.80%
+[No-Lunch] T14, test T2, model=resnet50, method=RAR, ACC=24.60%
+[No-Lunch] T14, test T3, model=resnet50, method=RAR, ACC=25.80%
+[No-Lunch] T14, test T4, model=resnet50, method=RAR, ACC=28.40%
+[No-Lunch] T14, test T5, model=resnet50, method=RAR, ACC=20.60%
+[No-Lunch] T14, test T6, model=resnet50, method=RAR, ACC=16.80%
+[No-Lunch] T14, test T7, model=resnet50, method=RAR, ACC=19.60%
+[No-Lunch] T14, test T8, model=resnet50, method=RAR, ACC=15.80%
+[No-Lunch] T14, test T9, model=resnet50, method=RAR, ACC=18.00%
+[No-Lunch] T14, test T10, model=resnet50, method=RAR, ACC=21.40%
+[No-Lunch] T14, test T11, model=resnet50, method=RAR, ACC=15.00%
+[No-Lunch] T14, test T12, model=resnet50, method=RAR, ACC=13.00%
+[No-Lunch] T14, test T13, model=resnet50, method=RAR, ACC=26.80%
+[No-Lunch] T14, test T14, model=resnet50, method=RAR, ACC=71.20%
+[No-Lunch] T15, test T0, model=resnet50, method=RAR, ACC=11.60%
+[No-Lunch] T15, test T1, model=resnet50, method=RAR, ACC=21.00%
+[No-Lunch] T15, test T2, model=resnet50, method=RAR, ACC=11.40%
+[No-Lunch] T15, test T3, model=resnet50, method=RAR, ACC=20.20%
+[No-Lunch] T15, test T4, model=resnet50, method=RAR, ACC=20.60%
+[No-Lunch] T15, test T5, model=resnet50, method=RAR, ACC=21.60%
+[No-Lunch] T15, test T6, model=resnet50, method=RAR, ACC=17.00%
+[No-Lunch] T15, test T7, model=resnet50, method=RAR, ACC=16.00%wandb: uploading output.log; uploading wandb-summary.json; uploading config.yaml
+wandb:                                                                                
+wandb: 
+wandb: Run history:
+wandb: Final/AAA ▁
+wandb: Final/FAA ▁
+wandb: Final/WCA ▁
+wandb:       acc ▇█▇▃▃▃▇▂▄▃█▁▂▂▂▃▁▂▂▂▃▃▂▃▂▃▃▂▂▂▂▁▃▂▂▃▂▃▃▃
+wandb: 
+wandb: Run summary:
+wandb: Final/AAA 0.30912
+wandb: Final/FAA 0.2186
+wandb: Final/WCA 0.1607
+wandb:       acc 64.2
+wandb: 
+wandb: 🚀 View run RAR_resnet50 at: https://wandb.ai/pqythu/my_cl_project_cifar100/runs/ikghgvmx
+wandb: ⭐️ View project at: https://wandb.ai/pqythu/my_cl_project_cifar100
+wandb: Synced 5 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
+wandb: Find logs at: ./wandb/run-20250424_133041-ikghgvmx/logs
+
+[No-Lunch] T15, test T8, model=resnet50, method=RAR, ACC=18.40%
+[No-Lunch] T15, test T9, model=resnet50, method=RAR, ACC=18.00%
+[No-Lunch] T15, test T10, model=resnet50, method=RAR, ACC=27.60%
+[No-Lunch] T15, test T11, model=resnet50, method=RAR, ACC=24.20%
+[No-Lunch] T15, test T12, model=resnet50, method=RAR, ACC=8.00%
+[No-Lunch] T15, test T13, model=resnet50, method=RAR, ACC=16.40%
+[No-Lunch] T15, test T14, model=resnet50, method=RAR, ACC=32.80%
+[No-Lunch] T15, test T15, model=resnet50, method=RAR, ACC=60.20%
+[No-Lunch] T16, test T0, model=resnet50, method=RAR, ACC=10.20%
+[No-Lunch] T16, test T1, model=resnet50, method=RAR, ACC=16.80%
+[No-Lunch] T16, test T2, model=resnet50, method=RAR, ACC=6.20%
+[No-Lunch] T16, test T3, model=resnet50, method=RAR, ACC=28.20%
+[No-Lunch] T16, test T4, model=resnet50, method=RAR, ACC=15.80%
+[No-Lunch] T16, test T5, model=resnet50, method=RAR, ACC=15.80%
+[No-Lunch] T16, test T6, model=resnet50, method=RAR, ACC=18.40%
+[No-Lunch] T16, test T7, model=resnet50, method=RAR, ACC=14.40%
+[No-Lunch] T16, test T8, model=resnet50, method=RAR, ACC=13.80%
+[No-Lunch] T16, test T9, model=resnet50, method=RAR, ACC=34.00%
+[No-Lunch] T16, test T10, model=resnet50, method=RAR, ACC=45.00%
+[No-Lunch] T16, test T11, model=resnet50, method=RAR, ACC=21.80%
+[No-Lunch] T16, test T12, model=resnet50, method=RAR, ACC=12.20%
+[No-Lunch] T16, test T13, model=resnet50, method=RAR, ACC=17.20%
+[No-Lunch] T16, test T14, model=resnet50, method=RAR, ACC=24.20%
+[No-Lunch] T16, test T15, model=resnet50, method=RAR, ACC=40.40%
+[No-Lunch] T16, test T16, model=resnet50, method=RAR, ACC=78.80%
+[No-Lunch] T17, test T0, model=resnet50, method=RAR, ACC=20.00%
+[No-Lunch] T17, test T1, model=resnet50, method=RAR, ACC=11.00%
+[No-Lunch] T17, test T2, model=resnet50, method=RAR, ACC=23.60%
+[No-Lunch] T17, test T3, model=resnet50, method=RAR, ACC=29.40%
+[No-Lunch] T17, test T4, model=resnet50, method=RAR, ACC=20.60%
+[No-Lunch] T17, test T5, model=resnet50, method=RAR, ACC=17.40%
+[No-Lunch] T17, test T6, model=resnet50, method=RAR, ACC=21.00%
+[No-Lunch] T17, test T7, model=resnet50, method=RAR, ACC=25.20%
+[No-Lunch] T17, test T8, model=resnet50, method=RAR, ACC=23.80%
+[No-Lunch] T17, test T9, model=resnet50, method=RAR, ACC=22.20%
+[No-Lunch] T17, test T10, model=resnet50, method=RAR, ACC=14.00%
+[No-Lunch] T17, test T11, model=resnet50, method=RAR, ACC=19.00%
+[No-Lunch] T17, test T12, model=resnet50, method=RAR, ACC=39.80%
+[No-Lunch] T17, test T13, model=resnet50, method=RAR, ACC=19.20%
+[No-Lunch] T17, test T14, model=resnet50, method=RAR, ACC=8.80%
+[No-Lunch] T17, test T15, model=resnet50, method=RAR, ACC=30.60%
+[No-Lunch] T17, test T16, model=resnet50, method=RAR, ACC=23.80%
+[No-Lunch] T17, test T17, model=resnet50, method=RAR, ACC=66.20%
+[No-Lunch] T18, test T0, model=resnet50, method=RAR, ACC=20.80%
+[No-Lunch] T18, test T1, model=resnet50, method=RAR, ACC=22.60%
+[No-Lunch] T18, test T2, model=resnet50, method=RAR, ACC=5.20%
+[No-Lunch] T18, test T3, model=resnet50, method=RAR, ACC=10.60%
+[No-Lunch] T18, test T4, model=resnet50, method=RAR, ACC=19.60%
+[No-Lunch] T18, test T5, model=resnet50, method=RAR, ACC=13.60%
+[No-Lunch] T18, test T6, model=resnet50, method=RAR, ACC=10.40%
+[No-Lunch] T18, test T7, model=resnet50, method=RAR, ACC=13.00%
+[No-Lunch] T18, test T8, model=resnet50, method=RAR, ACC=22.20%
+[No-Lunch] T18, test T9, model=resnet50, method=RAR, ACC=15.80%
+[No-Lunch] T18, test T10, model=resnet50, method=RAR, ACC=5.40%
+[No-Lunch] T18, test T11, model=resnet50, method=RAR, ACC=20.40%
+[No-Lunch] T18, test T12, model=resnet50, method=RAR, ACC=50.00%
+[No-Lunch] T18, test T13, model=resnet50, method=RAR, ACC=15.20%
+[No-Lunch] T18, test T14, model=resnet50, method=RAR, ACC=22.40%
+[No-Lunch] T18, test T15, model=resnet50, method=RAR, ACC=24.80%
+[No-Lunch] T18, test T16, model=resnet50, method=RAR, ACC=27.80%
+[No-Lunch] T18, test T17, model=resnet50, method=RAR, ACC=36.60%
+[No-Lunch] T18, test T18, model=resnet50, method=RAR, ACC=84.00%
+[No-Lunch] T19, test T0, model=resnet50, method=RAR, ACC=13.20%
+[No-Lunch] T19, test T1, model=resnet50, method=RAR, ACC=19.20%
+[No-Lunch] T19, test T2, model=resnet50, method=RAR, ACC=21.60%
+[No-Lunch] T19, test T3, model=resnet50, method=RAR, ACC=15.00%
+[No-Lunch] T19, test T4, model=resnet50, method=RAR, ACC=12.20%
+[No-Lunch] T19, test T5, model=resnet50, method=RAR, ACC=17.20%
+[No-Lunch] T19, test T6, model=resnet50, method=RAR, ACC=26.20%
+[No-Lunch] T19, test T7, model=resnet50, method=RAR, ACC=21.20%
+[No-Lunch] T19, test T8, model=resnet50, method=RAR, ACC=28.80%
+[No-Lunch] T19, test T9, model=resnet50, method=RAR, ACC=10.00%
+[No-Lunch] T19, test T10, model=resnet50, method=RAR, ACC=12.00%
+[No-Lunch] T19, test T11, model=resnet50, method=RAR, ACC=19.00%
+[No-Lunch] T19, test T12, model=resnet50, method=RAR, ACC=26.40%
+[No-Lunch] T19, test T13, model=resnet50, method=RAR, ACC=12.00%
+[No-Lunch] T19, test T14, model=resnet50, method=RAR, ACC=13.80%
+[No-Lunch] T19, test T15, model=resnet50, method=RAR, ACC=24.80%
+[No-Lunch] T19, test T16, model=resnet50, method=RAR, ACC=18.20%
+[No-Lunch] T19, test T17, model=resnet50, method=RAR, ACC=27.20%
+[No-Lunch] T19, test T18, model=resnet50, method=RAR, ACC=35.00%
+[No-Lunch] T19, test T19, model=resnet50, method=RAR, ACC=64.20%
+
+[No-Lunch final] model=resnet50, dataset=cifar100, method=RAR
+FAA=21.86%, AAA=30.91%, WCA=16.07%

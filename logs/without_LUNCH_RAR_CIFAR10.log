@@ -1,0 +1,20 @@
+Files already downloaded and verified
+Files already downloaded and verified
+[No-Lunch] T0, test T0, model=vit, method=RAR, ACC=99.70%
+[No-Lunch] T1, test T0, model=vit, method=RAR, ACC=95.15%
+[No-Lunch] T1, test T1, model=vit, method=RAR, ACC=98.65%
+[No-Lunch] T2, test T0, model=vit, method=RAR, ACC=96.20%
+[No-Lunch] T2, test T1, model=vit, method=RAR, ACC=89.60%
+[No-Lunch] T2, test T2, model=vit, method=RAR, ACC=99.00%
+[No-Lunch] T3, test T0, model=vit, method=RAR, ACC=82.05%
+[No-Lunch] T3, test T1, model=vit, method=RAR, ACC=71.85%
+[No-Lunch] T3, test T2, model=vit, method=RAR, ACC=68.45%
+[No-Lunch] T3, test T3, model=vit, method=RAR, ACC=99.95%
+[No-Lunch] T4, test T0, model=vit, method=RAR, ACC=93.85%
+[No-Lunch] T4, test T1, model=vit, method=RAR, ACC=75.15%
+[No-Lunch] T4, test T2, model=vit, method=RAR, ACC=66.40%
+[No-Lunch] T4, test T3, model=vit, method=RAR, ACC=98.25%
+[No-Lunch] T4, test T4, model=vit, method=RAR, ACC=99.60%
+
+[No-Lunch final] model=vit, dataset=cifar10, method=RAR
+FAA=86.65%, AAA=91.75%, WCA=83.63%

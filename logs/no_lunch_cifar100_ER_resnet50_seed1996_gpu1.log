@@ -1,0 +1,244 @@
+wandb: Using wandb-core as the SDK backend.  Please refer to https://wandb.me/wandb-core for more information.
+wandb: Currently logged in as: pqy000 (pqythu) to https://api.wandb.ai. Use `wandb login --relogin` to force relogin
+wandb: Tracking run with wandb version 0.19.9
+wandb: Run data is saved locally in /home/panqy/A10/lunch/wandb/run-20250424_132833-nn9rja2i
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run colorful-capybara-4
+wandb: ⭐️ View project at https://wandb.ai/pqythu/my_cl_project_cifar100
+wandb: 🚀 View run at https://wandb.ai/pqythu/my_cl_project_cifar100/runs/nn9rja2i
+wandb: WARNING Calling wandb.run.save without any arguments is deprecated.Changes to attributes are automatically persisted.
+Files already downloaded and verified
+Files already downloaded and verified
+Parameters: 23.71M
+[No-Lunch] T0, test T0, model=resnet50, method=ER, ACC=84.60%
+[No-Lunch] T1, test T0, model=resnet50, method=ER, ACC=39.20%
+[No-Lunch] T1, test T1, model=resnet50, method=ER, ACC=90.40%
+[No-Lunch] T2, test T0, model=resnet50, method=ER, ACC=25.40%
+[No-Lunch] T2, test T1, model=resnet50, method=ER, ACC=51.00%
+[No-Lunch] T2, test T2, model=resnet50, method=ER, ACC=86.60%
+[No-Lunch] T3, test T0, model=resnet50, method=ER, ACC=23.20%
+[No-Lunch] T3, test T1, model=resnet50, method=ER, ACC=19.20%
+[No-Lunch] T3, test T2, model=resnet50, method=ER, ACC=57.00%
+[No-Lunch] T3, test T3, model=resnet50, method=ER, ACC=81.20%
+[No-Lunch] T4, test T0, model=resnet50, method=ER, ACC=18.20%
+[No-Lunch] T4, test T1, model=resnet50, method=ER, ACC=16.00%
+[No-Lunch] T4, test T2, model=resnet50, method=ER, ACC=36.60%
+[No-Lunch] T4, test T3, model=resnet50, method=ER, ACC=53.20%
+[No-Lunch] T4, test T4, model=resnet50, method=ER, ACC=93.80%
+[No-Lunch] T5, test T0, model=resnet50, method=ER, ACC=15.40%
+[No-Lunch] T5, test T1, model=resnet50, method=ER, ACC=37.60%
+[No-Lunch] T5, test T2, model=resnet50, method=ER, ACC=22.00%
+[No-Lunch] T5, test T3, model=resnet50, method=ER, ACC=20.20%
+[No-Lunch] T5, test T4, model=resnet50, method=ER, ACC=65.40%
+[No-Lunch] T5, test T5, model=resnet50, method=ER, ACC=84.80%
+[No-Lunch] T6, test T0, model=resnet50, method=ER, ACC=17.20%
+[No-Lunch] T6, test T1, model=resnet50, method=ER, ACC=18.00%
+[No-Lunch] T6, test T2, model=resnet50, method=ER, ACC=20.80%
+[No-Lunch] T6, test T3, model=resnet50, method=ER, ACC=24.20%
+[No-Lunch] T6, test T4, model=resnet50, method=ER, ACC=50.60%
+[No-Lunch] T6, test T5, model=resnet50, method=ER, ACC=45.00%
+[No-Lunch] T6, test T6, model=resnet50, method=ER, ACC=84.20%
+[No-Lunch] T7, test T0, model=resnet50, method=ER, ACC=20.40%
+[No-Lunch] T7, test T1, model=resnet50, method=ER, ACC=18.80%
+[No-Lunch] T7, test T2, model=resnet50, method=ER, ACC=21.80%
+[No-Lunch] T7, test T3, model=resnet50, method=ER, ACC=33.60%
+[No-Lunch] T7, test T4, model=resnet50, method=ER, ACC=19.40%
+[No-Lunch] T7, test T5, model=resnet50, method=ER, ACC=22.20%
+[No-Lunch] T7, test T6, model=resnet50, method=ER, ACC=33.80%
+[No-Lunch] T7, test T7, model=resnet50, method=ER, ACC=84.40%
+[No-Lunch] T8, test T0, model=resnet50, method=ER, ACC=31.00%
+[No-Lunch] T8, test T1, model=resnet50, method=ER, ACC=17.00%
+[No-Lunch] T8, test T2, model=resnet50, method=ER, ACC=28.40%
+[No-Lunch] T8, test T3, model=resnet50, method=ER, ACC=22.80%
+[No-Lunch] T8, test T4, model=resnet50, method=ER, ACC=26.00%
+[No-Lunch] T8, test T5, model=resnet50, method=ER, ACC=27.00%
+[No-Lunch] T8, test T6, model=resnet50, method=ER, ACC=16.00%
+[No-Lunch] T8, test T7, model=resnet50, method=ER, ACC=55.20%
+[No-Lunch] T8, test T8, model=resnet50, method=ER, ACC=77.40%
+[No-Lunch] T9, test T0, model=resnet50, method=ER, ACC=23.20%
+[No-Lunch] T9, test T1, model=resnet50, method=ER, ACC=20.60%
+[No-Lunch] T9, test T2, model=resnet50, method=ER, ACC=39.00%
+[No-Lunch] T9, test T3, model=resnet50, method=ER, ACC=23.60%
+[No-Lunch] T9, test T4, model=resnet50, method=ER, ACC=18.20%
+[No-Lunch] T9, test T5, model=resnet50, method=ER, ACC=11.20%
+[No-Lunch] T9, test T6, model=resnet50, method=ER, ACC=14.80%
+[No-Lunch] T9, test T7, model=resnet50, method=ER, ACC=36.40%
+[No-Lunch] T9, test T8, model=resnet50, method=ER, ACC=33.60%
+[No-Lunch] T9, test T9, model=resnet50, method=ER, ACC=91.60%
+[No-Lunch] T10, test T0, model=resnet50, method=ER, ACC=9.60%
+[No-Lunch] T10, test T1, model=resnet50, method=ER, ACC=26.40%
+[No-Lunch] T10, test T2, model=resnet50, method=ER, ACC=31.00%
+[No-Lunch] T10, test T3, model=resnet50, method=ER, ACC=23.00%
+[No-Lunch] T10, test T4, model=resnet50, method=ER, ACC=22.60%
+[No-Lunch] T10, test T5, model=resnet50, method=ER, ACC=16.80%
+[No-Lunch] T10, test T6, model=resnet50, method=ER, ACC=20.60%
+[No-Lunch] T10, test T7, model=resnet50, method=ER, ACC=24.80%
+[No-Lunch] T10, test T8, model=resnet50, method=ER, ACC=21.00%
+[No-Lunch] T10, test T9, model=resnet50, method=ER, ACC=70.00%
+[No-Lunch] T10, test T10, model=resnet50, method=ER, ACC=88.60%
+[No-Lunch] T11, test T0, model=resnet50, method=ER, ACC=11.00%
+[No-Lunch] T11, test T1, model=resnet50, method=ER, ACC=25.00%
+[No-Lunch] T11, test T2, model=resnet50, method=ER, ACC=26.00%
+[No-Lunch] T11, test T3, model=resnet50, method=ER, ACC=10.80%
+[No-Lunch] T11, test T4, model=resnet50, method=ER, ACC=15.40%
+[No-Lunch] T11, test T5, model=resnet50, method=ER, ACC=12.40%
+[No-Lunch] T11, test T6, model=resnet50, method=ER, ACC=24.20%
+[No-Lunch] T11, test T7, model=resnet50, method=ER, ACC=16.20%
+[No-Lunch] T11, test T8, model=resnet50, method=ER, ACC=11.60%
+[No-Lunch] T11, test T9, model=resnet50, method=ER, ACC=43.20%
+[No-Lunch] T11, test T10, model=resnet50, method=ER, ACC=39.20%
+[No-Lunch] T11, test T11, model=resnet50, method=ER, ACC=85.20%
+[No-Lunch] T12, test T0, model=resnet50, method=ER, ACC=23.60%
+[No-Lunch] T12, test T1, model=resnet50, method=ER, ACC=19.00%
+[No-Lunch] T12, test T2, model=resnet50, method=ER, ACC=19.40%
+[No-Lunch] T12, test T3, model=resnet50, method=ER, ACC=31.20%
+[No-Lunch] T12, test T4, model=resnet50, method=ER, ACC=10.80%
+[No-Lunch] T12, test T5, model=resnet50, method=ER, ACC=19.40%
+[No-Lunch] T12, test T6, model=resnet50, method=ER, ACC=27.80%
+[No-Lunch] T12, test T7, model=resnet50, method=ER, ACC=17.00%
+[No-Lunch] T12, test T8, model=resnet50, method=ER, ACC=22.80%
+[No-Lunch] T12, test T9, model=resnet50, method=ER, ACC=19.40%
+[No-Lunch] T12, test T10, model=resnet50, method=ER, ACC=12.00%
+[No-Lunch] T12, test T11, model=resnet50, method=ER, ACC=50.20%
+[No-Lunch] T12, test T12, model=resnet50, method=ER, ACC=87.60%
+[No-Lunch] T13, test T0, model=resnet50, method=ER, ACC=16.80%
+[No-Lunch] T13, test T1, model=resnet50, method=ER, ACC=29.40%
+[No-Lunch] T13, test T2, model=resnet50, method=ER, ACC=19.40%
+[No-Lunch] T13, test T3, model=resnet50, method=ER, ACC=24.40%
+[No-Lunch] T13, test T4, model=resnet50, method=ER, ACC=21.20%
+[No-Lunch] T13, test T5, model=resnet50, method=ER, ACC=25.80%
+[No-Lunch] T13, test T6, model=resnet50, method=ER, ACC=21.80%
+[No-Lunch] T13, test T7, model=resnet50, method=ER, ACC=12.20%
+[No-Lunch] T13, test T8, model=resnet50, method=ER, ACC=19.80%
+[No-Lunch] T13, test T9, model=resnet50, method=ER, ACC=21.40%
+[No-Lunch] T13, test T10, model=resnet50, method=ER, ACC=20.60%
+[No-Lunch] T13, test T11, model=resnet50, method=ER, ACC=34.20%
+[No-Lunch] T13, test T12, model=resnet50, method=ER, ACC=47.00%
+[No-Lunch] T13, test T13, model=resnet50, method=ER, ACC=86.80%
+[No-Lunch] T14, test T0, model=resnet50, method=ER, ACC=34.00%
+[No-Lunch] T14, test T1, model=resnet50, method=ER, ACC=11.00%
+[No-Lunch] T14, test T2, model=resnet50, method=ER, ACC=26.00%
+[No-Lunch] T14, test T3, model=resnet50, method=ER, ACC=26.40%
+[No-Lunch] T14, test T4, model=resnet50, method=ER, ACC=27.80%
+[No-Lunch] T14, test T5, model=resnet50, method=ER, ACC=21.20%
+[No-Lunch] T14, test T6, model=resnet50, method=ER, ACC=19.00%
+[No-Lunch] T14, test T7, model=resnet50, method=ER, ACC=18.80%
+[No-Lunch] T14, test T8, model=resnet50, method=ER, ACC=16.00%
+[No-Lunch] T14, test T9, model=resnet50, method=ER, ACC=13.60%
+[No-Lunch] T14, test T10, model=resnet50, method=ER, ACC=7.20%
+[No-Lunch] T14, test T11, model=resnet50, method=ER, ACC=23.40%
+[No-Lunch] T14, test T12, model=resnet50, method=ER, ACC=12.00%
+[No-Lunch] T14, test T13, model=resnet50, method=ER, ACC=46.40%
+[No-Lunch] T14, test T14, model=resnet50, method=ER, ACC=80.20%
+[No-Lunch] T15, test T0, model=resnet50, method=ER, ACC=19.60%
+[No-Lunch] T15, test T1, model=resnet50, method=ER, ACC=17.60%
+[No-Lunch] T15, test T2, model=resnet50, method=ER, ACC=18.20%
+[No-Lunch] T15, test T3, model=resnet50, method=ER, ACC=20.00%
+[No-Lunch] T15, test T4, model=resnet50, method=ER, ACC=18.80%
+[No-Lunch] T15, test T5, model=resnet50, method=ER, ACC=20.60%
+[No-Lunch] T15, test T6, model=resnet50, method=ER, ACC=22.20%
+[No-Lunch] T15, test T7, model=resnet50, method=ER, ACC=9.60%
+[No-Lunch] T15, test T8, model=resnet50, method=ER, ACC=20.20%
+[No-Lunch] T15, test T9, model=resnet50, method=ER, ACC=25.40%wandb: uploading output.log; uploading wandb-summary.json; uploading config.yaml
+wandb:                                                                                
+wandb: 
+wandb: Run history:
+wandb: Final/AAA ▁
+wandb: Final/FAA ▁
+wandb: Final/WCA ▁
+wandb:       acc ▃▃▂▆▂▅▃▄▂█▂▂▂▂▂▂▄▂▃▃▃▂▂▂▂▂▁▂▃▂▂▃▂▂▄▂▂▂▂▂
+wandb: 
+wandb: Run summary:
+wandb: Final/AAA 0.36536
+wandb: Final/FAA 0.2279
+wandb: Final/WCA 0.1798
+wandb:       acc 87.2
+wandb: 
+wandb: 🚀 View run ER_resnet50 at: https://wandb.ai/pqythu/my_cl_project_cifar100/runs/nn9rja2i
+wandb: ⭐️ View project at: https://wandb.ai/pqythu/my_cl_project_cifar100
+wandb: Synced 5 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
+wandb: Find logs at: ./wandb/run-20250424_132833-nn9rja2i/logs
+
+[No-Lunch] T15, test T10, model=resnet50, method=ER, ACC=16.60%
+[No-Lunch] T15, test T11, model=resnet50, method=ER, ACC=33.00%
+[No-Lunch] T15, test T12, model=resnet50, method=ER, ACC=15.20%
+[No-Lunch] T15, test T13, model=resnet50, method=ER, ACC=22.00%
+[No-Lunch] T15, test T14, model=resnet50, method=ER, ACC=52.20%
+[No-Lunch] T15, test T15, model=resnet50, method=ER, ACC=84.20%
+[No-Lunch] T16, test T0, model=resnet50, method=ER, ACC=3.80%
+[No-Lunch] T16, test T1, model=resnet50, method=ER, ACC=14.00%
+[No-Lunch] T16, test T2, model=resnet50, method=ER, ACC=8.00%
+[No-Lunch] T16, test T3, model=resnet50, method=ER, ACC=23.40%
+[No-Lunch] T16, test T4, model=resnet50, method=ER, ACC=9.60%
+[No-Lunch] T16, test T5, model=resnet50, method=ER, ACC=11.80%
+[No-Lunch] T16, test T6, model=resnet50, method=ER, ACC=13.80%
+[No-Lunch] T16, test T7, model=resnet50, method=ER, ACC=14.80%
+[No-Lunch] T16, test T8, model=resnet50, method=ER, ACC=20.40%
+[No-Lunch] T16, test T9, model=resnet50, method=ER, ACC=20.00%
+[No-Lunch] T16, test T10, model=resnet50, method=ER, ACC=39.80%
+[No-Lunch] T16, test T11, model=resnet50, method=ER, ACC=26.20%
+[No-Lunch] T16, test T12, model=resnet50, method=ER, ACC=11.20%
+[No-Lunch] T16, test T13, model=resnet50, method=ER, ACC=29.00%
+[No-Lunch] T16, test T14, model=resnet50, method=ER, ACC=24.40%
+[No-Lunch] T16, test T15, model=resnet50, method=ER, ACC=57.20%
+[No-Lunch] T16, test T16, model=resnet50, method=ER, ACC=87.00%
+[No-Lunch] T17, test T0, model=resnet50, method=ER, ACC=14.00%
+[No-Lunch] T17, test T1, model=resnet50, method=ER, ACC=13.20%
+[No-Lunch] T17, test T2, model=resnet50, method=ER, ACC=15.20%
+[No-Lunch] T17, test T3, model=resnet50, method=ER, ACC=37.00%
+[No-Lunch] T17, test T4, model=resnet50, method=ER, ACC=13.40%
+[No-Lunch] T17, test T5, model=resnet50, method=ER, ACC=14.40%
+[No-Lunch] T17, test T6, model=resnet50, method=ER, ACC=21.60%
+[No-Lunch] T17, test T7, model=resnet50, method=ER, ACC=17.80%
+[No-Lunch] T17, test T8, model=resnet50, method=ER, ACC=29.00%
+[No-Lunch] T17, test T9, model=resnet50, method=ER, ACC=10.20%
+[No-Lunch] T17, test T10, model=resnet50, method=ER, ACC=11.00%
+[No-Lunch] T17, test T11, model=resnet50, method=ER, ACC=18.20%
+[No-Lunch] T17, test T12, model=resnet50, method=ER, ACC=42.40%
+[No-Lunch] T17, test T13, model=resnet50, method=ER, ACC=18.80%
+[No-Lunch] T17, test T14, model=resnet50, method=ER, ACC=13.00%
+[No-Lunch] T17, test T15, model=resnet50, method=ER, ACC=40.80%
+[No-Lunch] T17, test T16, model=resnet50, method=ER, ACC=37.40%
+[No-Lunch] T17, test T17, model=resnet50, method=ER, ACC=81.80%
+[No-Lunch] T18, test T0, model=resnet50, method=ER, ACC=24.60%
+[No-Lunch] T18, test T1, model=resnet50, method=ER, ACC=27.00%
+[No-Lunch] T18, test T2, model=resnet50, method=ER, ACC=7.40%
+[No-Lunch] T18, test T3, model=resnet50, method=ER, ACC=16.80%
+[No-Lunch] T18, test T4, model=resnet50, method=ER, ACC=11.60%
+[No-Lunch] T18, test T5, model=resnet50, method=ER, ACC=13.40%
+[No-Lunch] T18, test T6, model=resnet50, method=ER, ACC=11.20%
+[No-Lunch] T18, test T7, model=resnet50, method=ER, ACC=18.60%
+[No-Lunch] T18, test T8, model=resnet50, method=ER, ACC=24.80%
+[No-Lunch] T18, test T9, model=resnet50, method=ER, ACC=14.20%
+[No-Lunch] T18, test T10, model=resnet50, method=ER, ACC=6.60%
+[No-Lunch] T18, test T11, model=resnet50, method=ER, ACC=16.60%
+[No-Lunch] T18, test T12, model=resnet50, method=ER, ACC=51.60%
+[No-Lunch] T18, test T13, model=resnet50, method=ER, ACC=14.80%
+[No-Lunch] T18, test T14, model=resnet50, method=ER, ACC=20.20%
+[No-Lunch] T18, test T15, model=resnet50, method=ER, ACC=28.60%
+[No-Lunch] T18, test T16, model=resnet50, method=ER, ACC=28.40%
+[No-Lunch] T18, test T17, model=resnet50, method=ER, ACC=50.20%
+[No-Lunch] T18, test T18, model=resnet50, method=ER, ACC=87.20%
+[No-Lunch] T19, test T0, model=resnet50, method=ER, ACC=14.20%
+[No-Lunch] T19, test T1, model=resnet50, method=ER, ACC=20.20%
+[No-Lunch] T19, test T2, model=resnet50, method=ER, ACC=9.20%
+[No-Lunch] T19, test T3, model=resnet50, method=ER, ACC=7.00%
+[No-Lunch] T19, test T4, model=resnet50, method=ER, ACC=13.00%
+[No-Lunch] T19, test T5, model=resnet50, method=ER, ACC=19.80%
+[No-Lunch] T19, test T6, model=resnet50, method=ER, ACC=25.80%
+[No-Lunch] T19, test T7, model=resnet50, method=ER, ACC=16.80%
+[No-Lunch] T19, test T8, model=resnet50, method=ER, ACC=27.40%
+[No-Lunch] T19, test T9, model=resnet50, method=ER, ACC=6.60%
+[No-Lunch] T19, test T10, model=resnet50, method=ER, ACC=18.20%
+[No-Lunch] T19, test T11, model=resnet50, method=ER, ACC=21.80%
+[No-Lunch] T19, test T12, model=resnet50, method=ER, ACC=18.00%
+[No-Lunch] T19, test T13, model=resnet50, method=ER, ACC=13.40%
+[No-Lunch] T19, test T14, model=resnet50, method=ER, ACC=14.60%
+[No-Lunch] T19, test T15, model=resnet50, method=ER, ACC=23.80%
+[No-Lunch] T19, test T16, model=resnet50, method=ER, ACC=25.20%
+[No-Lunch] T19, test T17, model=resnet50, method=ER, ACC=21.00%
+[No-Lunch] T19, test T18, model=resnet50, method=ER, ACC=52.60%
+[No-Lunch] T19, test T19, model=resnet50, method=ER, ACC=87.20%
+
+[No-Lunch final] model=resnet50, dataset=cifar100, method=ER
+FAA=22.79%, AAA=36.54%, WCA=17.98%

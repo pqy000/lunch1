@@ -1,0 +1,149 @@
+# main_lunch.py
+
+import argparse
+import torch
+from torch.utils.data import DataLoader
+import torch.optim as optim
+import torch.nn as nn
+import os
+os.environ["CUDA_VISIBLE_DEVICES"] = "0"
+
+from data_utils import build_cifar_datasets
+from tasks import get_cifar10_tasks, get_cifar100_tasks, TaskSubset
+from memory import MemoryBuffer
+from model import IncrementalResNet50, IncrementalViT
+from metrics import compute_faa_aaa_wca
+from trainers_lunch import train_ER_LUNCH, train_DER_LUNCH, train_RAR_LUNCH
+from lunch_utils import KendallUncertaintyWeighting, ExponentialMovingAverage
+
+def evaluate_task(model, loader, device="cuda:0"):
+    model.eval()
+    correct, total = 0, 0
+    with torch.no_grad():
+        for imgs, labels in loader:
+            imgs, labels = imgs.to(device), labels.to(device)
+            logits = model(imgs)
+            preds = logits.argmax(dim=1)
+            correct += (preds==labels).sum().item()
+            total += labels.size(0)
+    return correct/total if total>0 else 0
+
+def main():
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--dataset", type=str, default="cifar10", choices=["cifar10","cifar100"])
+    parser.add_argument(    "--method", type=str, default="ER", choices=["ER","DER","RAR"])
+    parser.add_argument("--model_type", type=str, default="vit", choices=["resnet50","vit"],
+                        help="Choose backbone: ResNet50 or ViT.")
+    parser.add_argument("--use_lunch", action="store_true", help="Enable LUNCH weighting.")
+    parser.add_argument("--use_ema", action="store_true", help="Enable EMA.")
+    parser.add_argument("--memory_size", type=int, default=2000)
+    parser.add_argument("--epochs_per_task", type=int, default=5)
+    parser.add_argument("--batch_size", type=int, default=32)
+    parser.add_argument("--lr", type=float, default=0.001)
+    parser.add_argument("--device", type=str, default="cuda:0")
+    args = parser.parse_args()
+
+    # 1) 数据集
+    trainset, testset, num_classes = build_cifar_datasets(args.dataset)
+    if args.dataset=="cifar10":
+        task_splits = get_cifar10_tasks()
+    else:
+        task_splits = get_cifar100_tasks()
+
+    # 2) 模型
+    if args.model_type=="resnet50":
+        model = IncrementalResNet50(max_classes=num_classes).to(args.device)
+    else:
+        model = IncrementalViT(max_classes=num_classes).to(args.device)
+
+    # 3) 优化器
+    optimizer = optim.SGD(model.parameters(), lr=args.lr, momentum=0.9, weight_decay=1e-4)
+
+    # 4) Memory
+    store_logits = (args.method=="DER")
+    replay_mem = MemoryBuffer(max_size=args.memory_size, store_logits=store_logits)
+
+    # 5) LUNCH
+    if args.method=="DER":
+        loss_keys = ["new","oldCE","mse"]
+    else:
+        # ER / RAR => 2 losses
+        loss_keys = ["new","old"]
+    lw_model = None
+    if args.use_lunch:
+        lw_model = KendallUncertaintyWeighting(loss_keys).to(args.device)
+
+    # 6) EMA
+    ema = None
+    if args.use_ema:
+        ema = ExponentialMovingAverage(model, decay=0.999)
+
+    # 7) 训练
+    T = len(task_splits)
+    acc_matrix = [[0.0]*T for _ in range(T)]
+    acc_matrix_ema = [[0.0]*T for _ in range(T)] if args.use_ema else None
+
+    from trainers import train_ER, train_DER, train_RAR
+    def train_one_epoch(loader):
+        if not args.use_lunch:
+            # 原版
+            if args.method=="ER":
+                train_ER(model, nn.CrossEntropyLoss(), optimizer, loader, replay_mem, args.device)
+            elif args.method=="DER":
+                train_DER(model, nn.CrossEntropyLoss(), optimizer, loader, replay_mem, args.device)
+            else:
+                train_RAR(model, nn.CrossEntropyLoss(), optimizer, loader, replay_mem, args.device)
+        else:
+            # LUNCH
+            if args.method=="ER":
+                train_ER_LUNCH(model, lw_model, optimizer, loader, replay_mem, args.device, ema=ema)
+            elif args.method=="DER":
+                train_DER_LUNCH(model, lw_model, optimizer, loader, replay_mem, args.device, ema=ema)
+            else:
+                train_RAR_LUNCH(model, lw_model, optimizer, loader, replay_mem, args.device, ema=ema)
+
+    for t_idx, cids in enumerate(task_splits):
+        train_ds_t = TaskSubset(trainset, cids)
+        test_ds_t  = TaskSubset(testset, cids)
+        train_loader_t = DataLoader(train_ds_t, batch_size=args.batch_size, shuffle=True)
+
+        for ep in range(args.epochs_per_task):
+            train_one_epoch(train_loader_t)
+
+        # 测试 normal
+        for old_i in range(t_idx+1):
+            test_ds_old = TaskSubset(testset, task_splits[old_i])
+            test_loader_old = DataLoader(test_ds_old, batch_size=64, shuffle=False)
+            acc_val = evaluate_task(model, test_loader_old, args.device)
+            acc_matrix[t_idx][old_i] = acc_val
+            print(f"[LUNCH] T{t_idx}, {args.method}+{args.model_type}, normal => test T{old_i} = {acc_val*100:.2f}%")
+
+        # 测试 EMA
+        if args.use_ema and ema is not None and acc_matrix_ema is not None:
+            orig_sd = model.state_dict()
+            ema_sd = ema.get_state_dict(model)
+            model.load_state_dict(ema_sd)
+            for old_i in range(t_idx+1):
+                test_ds_old = TaskSubset(testset, task_splits[old_i])
+                test_loader_old = DataLoader(test_ds_old, batch_size=64, shuffle=False)
+                acc_ema_val = evaluate_task(model, test_loader_old, args.device)
+                acc_matrix_ema[t_idx][old_i] = acc_ema_val
+                print(f"[LUNCH] T{t_idx}, {args.method}+{args.model_type}, EMA => test T{old_i} = {acc_ema_val*100:.2f}%")
+            model.load_state_dict(orig_sd)
+
+    # 最终
+    FAA, AAA, WCA = compute_faa_aaa_wca(acc_matrix)
+    print(f"\n[LUNCH final (normal)] model={args.model_type}, ds={args.dataset}, method={args.method}")
+    print(f"FAA={FAA*100:.2f}%, AAA={AAA*100:.2f}%, WCA={WCA*100:.2f}%")
+
+    if args.use_ema and acc_matrix_ema is not None:
+        FAA_ema, AAA_ema, WCA_ema = compute_faa_aaa_wca(acc_matrix_ema)
+        print(f"\n[LUNCH final (EMA)] model={args.model_type}, ds={args.dataset}, method={args.method}")
+        print(f"FAA={FAA_ema*100:.2f}%, AAA={AAA_ema*100:.2f}%, WCA={WCA_ema*100:.2f}%")
+
+        overhead_bytes = ema.get_memory_overhead()
+        overhead_mb = overhead_bytes/(1024**2)
+        print(f"EMA overhead: {overhead_bytes} bytes (~{overhead_mb:.2f} MB)")
+
+if __name__=="__main__":
+    main()

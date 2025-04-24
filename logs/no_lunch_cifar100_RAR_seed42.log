@@ -1,0 +1,219 @@
+Downloading https://www.cs.toronto.edu/~kriz/cifar-100-python.tar.gz to ./data/cifar-100-python.tar.gz
+  0%|          | 0.00/169M [00:00<?, ?B/s]  0%|          | 32.8k/169M [00:00<45:58, 61.3kB/s]  0%|          | 98.3k/169M [00:00<20:22, 138kB/s]   0%|          | 197k/169M [00:01<12:36, 223kB/s]   0%|          | 393k/169M [00:01<07:02, 399kB/s]  0%|          | 786k/169M [00:01<03:43, 752kB/s]  1%|          | 1.57M/169M [00:01<01:55, 1.45MB/s]  2%|▏         | 3.15M/169M [00:02<00:58, 2.85MB/s]  4%|▎         | 6.06M/169M [00:02<00:30, 5.27MB/s]  5%|▌         | 8.88M/169M [00:02<00:23, 6.86MB/s]  7%|▋         | 11.8M/169M [00:02<00:19, 8.01MB/s]  9%|▊         | 14.7M/169M [00:03<00:17, 8.90MB/s] 11%|█         | 17.9M/169M [00:03<00:15, 9.77MB/s] 12%|█▏        | 20.8M/169M [00:03<00:14, 10.1MB/s] 14%|█▍        | 24.2M/169M [00:04<00:13, 10.7MB/s] 16%|█▌        | 27.1M/169M [00:04<00:13, 10.8MB/s] 18%|█▊        | 30.3M/169M [00:04<00:12, 11.0MB/s] 20%|█▉        | 33.3M/169M [00:04<00:12, 11.1MB/s] 22%|██▏       | 36.6M/169M [00:05<00:11, 11.3MB/s] 23%|██▎       | 39.6M/169M [00:05<00:11, 11.3MB/s] 25%|██▌       | 42.6M/169M [00:05<00:11, 11.2MB/s] 27%|██▋       | 45.6M/169M [00:05<00:10, 11.2MB/s] 29%|██▉       | 48.8M/169M [00:06<00:10, 11.3MB/s] 31%|███       | 51.9M/169M [00:06<00:10, 11.3MB/s] 33%|███▎      | 55.0M/169M [00:06<00:10, 11.3MB/s] 34%|███▍      | 58.0M/169M [00:07<00:09, 11.3MB/s] 36%|███▌      | 61.2M/169M [00:07<00:09, 11.4MB/s] 38%|███▊      | 64.6M/169M [00:07<00:08, 11.7MB/s] 40%|███▉      | 67.5M/169M [00:07<00:08, 11.5MB/s] 42%|████▏     | 70.5M/169M [00:08<00:08, 11.3MB/s] 44%|████▎     | 73.6M/169M [00:08<00:08, 11.3MB/s] 46%|████▌     | 77.0M/169M [00:08<00:07, 11.6MB/s] 47%|████▋     | 80.2M/169M [00:08<00:07, 11.7MB/s] 49%|████▉     | 83.6M/169M [00:09<00:07, 11.8MB/s] 51%|█████     | 86.6M/169M [00:09<00:07, 11.6MB/s] 53%|█████▎    | 89.8M/169M [00:09<00:06, 11.6MB/s] 55%|█████▌    | 93.0M/169M [00:10<00:06, 11.7MB/s] 56%|█████▌    | 94.1M/169M [00:10<00:10, 7.31MB/s] 58%|█████▊    | 97.6M/169M [00:10<00:08, 8.73MB/s] 59%|█████▉    | 99.8M/169M [00:11<00:08, 8.57MB/s] 61%|██████    | 103M/169M [00:11<00:06, 9.86MB/s]  63%|██████▎   | 106M/169M [00:11<00:06, 10.1MB/s] 65%|██████▍   | 110M/169M [00:11<00:05, 10.6MB/s] 67%|██████▋   | 112M/169M [00:12<00:05, 10.6MB/s] 67%|██████▋   | 114M/169M [00:12<00:08, 6.77MB/s] 69%|██████▊   | 116M/169M [00:12<00:06, 8.22MB/s] 69%|██████▉   | 117M/169M [00:13<00:06, 8.33MB/s] 70%|███████   | 119M/169M [00:13<00:06, 7.49MB/s] 72%|███████▏  | 122M/169M [00:13<00:05, 8.70MB/s] 74%|███████▍  | 125M/169M [00:13<00:04, 9.84MB/s] 76%|███████▌  | 128M/169M [00:14<00:04, 10.1MB/s] 78%|███████▊  | 131M/169M [00:14<00:03, 10.5MB/s] 79%|███████▉  | 134M/169M [00:14<00:03, 10.5MB/s] 80%|████████  | 135M/169M [00:15<00:05, 6.63MB/s] 82%|████████▏ | 139M/169M [00:15<00:03, 8.43MB/s] 83%|████████▎ | 141M/169M [00:15<00:03, 8.18MB/s] 84%|████████▍ | 142M/169M [00:16<00:04, 5.61MB/s] 86%|████████▋ | 146M/169M [00:16<00:03, 7.51MB/s] 87%|████████▋ | 148M/169M [00:16<00:02, 7.38MB/s] 89%|████████▊ | 150M/169M [00:17<00:02, 7.32MB/s] 90%|████████▉ | 152M/169M [00:17<00:02, 7.29MB/s] 91%|█████████ | 154M/169M [00:17<00:02, 7.30MB/s] 92%|█████████▏| 156M/169M [00:17<00:01, 7.35MB/s] 93%|█████████▎| 158M/169M [00:18<00:01, 7.41MB/s] 95%|█████████▍| 160M/169M [00:18<00:01, 7.48MB/s] 96%|█████████▌| 162M/169M [00:18<00:00, 7.55MB/s] 97%|█████████▋| 164M/169M [00:18<00:00, 7.63MB/s] 98%|█████████▊| 166M/169M [00:19<00:00, 7.69MB/s] 99%|█████████▉| 168M/169M [00:19<00:00, 7.78MB/s]100%|██████████| 169M/169M [00:19<00:00, 8.65MB/s]
+Extracting ./data/cifar-100-python.tar.gz to ./data
+Files already downloaded and verified
+Dataset=cifar100, #Classes=100, Task splits:
+[[0, 1, 2, 3, 4], [5, 6, 7, 8, 9], [10, 11, 12, 13, 14], [15, 16, 17, 18, 19], [20, 21, 22, 23, 24], [25, 26, 27, 28, 29], [30, 31, 32, 33, 34], [35, 36, 37, 38, 39], [40, 41, 42, 43, 44], [45, 46, 47, 48, 49], [50, 51, 52, 53, 54], [55, 56, 57, 58, 59], [60, 61, 62, 63, 64], [65, 66, 67, 68, 69], [70, 71, 72, 73, 74], [75, 76, 77, 78, 79], [80, 81, 82, 83, 84], [85, 86, 87, 88, 89], [90, 91, 92, 93, 94], [95, 96, 97, 98, 99]]
+   => After Task 0, test on Task 0 ACC= 66.60%
+   => After Task 1, test on Task 0 ACC= 12.00%
+   => After Task 1, test on Task 1 ACC= 58.00%
+   => After Task 2, test on Task 0 ACC= 29.60%
+   => After Task 2, test on Task 1 ACC= 27.80%
+   => After Task 2, test on Task 2 ACC= 63.60%
+   => After Task 3, test on Task 0 ACC= 20.80%
+   => After Task 3, test on Task 1 ACC= 10.00%
+   => After Task 3, test on Task 2 ACC= 32.20%
+   => After Task 3, test on Task 3 ACC= 67.20%
+   => After Task 4, test on Task 0 ACC= 13.20%
+   => After Task 4, test on Task 1 ACC= 16.20%
+   => After Task 4, test on Task 2 ACC= 28.00%
+   => After Task 4, test on Task 3 ACC= 25.00%
+   => After Task 4, test on Task 4 ACC= 83.80%
+   => After Task 5, test on Task 0 ACC= 28.40%
+   => After Task 5, test on Task 1 ACC= 33.80%
+   => After Task 5, test on Task 2 ACC= 25.80%
+   => After Task 5, test on Task 3 ACC= 18.40%
+   => After Task 5, test on Task 4 ACC= 46.80%
+   => After Task 5, test on Task 5 ACC= 65.80%
+   => After Task 6, test on Task 0 ACC= 19.00%
+   => After Task 6, test on Task 1 ACC= 18.80%
+   => After Task 6, test on Task 2 ACC= 20.20%
+   => After Task 6, test on Task 3 ACC= 20.40%
+   => After Task 6, test on Task 4 ACC= 31.40%
+   => After Task 6, test on Task 5 ACC= 23.40%
+   => After Task 6, test on Task 6 ACC= 51.40%
+   => After Task 7, test on Task 0 ACC= 22.20%
+   => After Task 7, test on Task 1 ACC= 17.40%
+   => After Task 7, test on Task 2 ACC= 20.00%
+   => After Task 7, test on Task 3 ACC= 28.40%
+   => After Task 7, test on Task 4 ACC= 13.80%
+   => After Task 7, test on Task 5 ACC= 15.20%
+   => After Task 7, test on Task 6 ACC= 15.40%
+   => After Task 7, test on Task 7 ACC= 54.80%
+   => After Task 8, test on Task 0 ACC= 39.40%
+   => After Task 8, test on Task 1 ACC= 20.60%
+   => After Task 8, test on Task 2 ACC= 28.40%
+   => After Task 8, test on Task 3 ACC= 23.20%
+   => After Task 8, test on Task 4 ACC= 24.20%
+   => After Task 8, test on Task 5 ACC= 26.40%
+   => After Task 8, test on Task 6 ACC= 20.00%
+   => After Task 8, test on Task 7 ACC= 35.00%
+   => After Task 8, test on Task 8 ACC= 61.40%
+   => After Task 9, test on Task 0 ACC= 14.80%
+   => After Task 9, test on Task 1 ACC= 18.60%
+   => After Task 9, test on Task 2 ACC= 27.20%
+   => After Task 9, test on Task 3 ACC= 18.80%
+   => After Task 9, test on Task 4 ACC= 30.00%
+   => After Task 9, test on Task 5 ACC= 17.60%
+   => After Task 9, test on Task 6 ACC= 28.40%
+   => After Task 9, test on Task 7 ACC= 31.20%
+   => After Task 9, test on Task 8 ACC= 26.80%
+   => After Task 9, test on Task 9 ACC= 74.20%
+   => After Task 10, test on Task 0 ACC= 6.00%
+   => After Task 10, test on Task 1 ACC= 26.60%
+   => After Task 10, test on Task 2 ACC= 15.60%
+   => After Task 10, test on Task 3 ACC= 22.40%
+   => After Task 10, test on Task 4 ACC= 16.00%
+   => After Task 10, test on Task 5 ACC= 17.60%
+   => After Task 10, test on Task 6 ACC= 29.20%
+   => After Task 10, test on Task 7 ACC= 22.60%
+   => After Task 10, test on Task 8 ACC= 17.20%
+   => After Task 10, test on Task 9 ACC= 43.80%
+   => After Task 10, test on Task 10 ACC= 71.80%
+   => After Task 11, test on Task 0 ACC= 13.20%
+   => After Task 11, test on Task 1 ACC= 21.40%
+   => After Task 11, test on Task 2 ACC= 21.40%
+   => After Task 11, test on Task 3 ACC= 17.00%
+   => After Task 11, test on Task 4 ACC= 14.80%
+   => After Task 11, test on Task 5 ACC= 12.80%
+   => After Task 11, test on Task 6 ACC= 26.20%
+   => After Task 11, test on Task 7 ACC= 16.20%
+   => After Task 11, test on Task 8 ACC= 8.60%
+   => After Task 11, test on Task 9 ACC= 32.80%
+   => After Task 11, test on Task 10 ACC= 17.80%
+   => After Task 11, test on Task 11 ACC= 77.60%
+   => After Task 12, test on Task 0 ACC= 23.40%
+   => After Task 12, test on Task 1 ACC= 25.40%
+   => After Task 12, test on Task 2 ACC= 13.20%
+   => After Task 12, test on Task 3 ACC= 21.40%
+   => After Task 12, test on Task 4 ACC= 15.20%
+   => After Task 12, test on Task 5 ACC= 22.80%
+   => After Task 12, test on Task 6 ACC= 30.20%
+   => After Task 12, test on Task 7 ACC= 13.00%
+   => After Task 12, test on Task 8 ACC= 16.80%
+   => After Task 12, test on Task 9 ACC= 17.00%
+   => After Task 12, test on Task 10 ACC= 7.80%
+   => After Task 12, test on Task 11 ACC= 36.40%
+   => After Task 12, test on Task 12 ACC= 81.00%
+   => After Task 13, test on Task 0 ACC= 23.60%
+   => After Task 13, test on Task 1 ACC= 28.60%
+   => After Task 13, test on Task 2 ACC= 16.40%
+   => After Task 13, test on Task 3 ACC= 15.60%
+   => After Task 13, test on Task 4 ACC= 25.20%
+   => After Task 13, test on Task 5 ACC= 19.20%
+   => After Task 13, test on Task 6 ACC= 26.80%
+   => After Task 13, test on Task 7 ACC= 14.00%
+   => After Task 13, test on Task 8 ACC= 12.20%
+   => After Task 13, test on Task 9 ACC= 19.40%
+   => After Task 13, test on Task 10 ACC= 21.60%
+   => After Task 13, test on Task 11 ACC= 20.40%
+   => After Task 13, test on Task 12 ACC= 24.60%
+   => After Task 13, test on Task 13 ACC= 67.20%
+   => After Task 14, test on Task 0 ACC= 37.40%
+   => After Task 14, test on Task 1 ACC= 16.20%
+   => After Task 14, test on Task 2 ACC= 24.60%
+   => After Task 14, test on Task 3 ACC= 27.60%
+   => After Task 14, test on Task 4 ACC= 25.20%
+   => After Task 14, test on Task 5 ACC= 23.20%
+   => After Task 14, test on Task 6 ACC= 23.00%
+   => After Task 14, test on Task 7 ACC= 23.80%
+   => After Task 14, test on Task 8 ACC= 13.40%
+   => After Task 14, test on Task 9 ACC= 18.00%
+   => After Task 14, test on Task 10 ACC= 16.20%
+   => After Task 14, test on Task 11 ACC= 15.80%
+   => After Task 14, test on Task 12 ACC= 12.20%
+   => After Task 14, test on Task 13 ACC= 21.00%
+   => After Task 14, test on Task 14 ACC= 74.40%
+   => After Task 15, test on Task 0 ACC= 16.60%
+   => After Task 15, test on Task 1 ACC= 19.20%
+   => After Task 15, test on Task 2 ACC= 16.20%
+   => After Task 15, test on Task 3 ACC= 15.60%
+   => After Task 15, test on Task 4 ACC= 19.40%
+   => After Task 15, test on Task 5 ACC= 21.20%
+   => After Task 15, test on Task 6 ACC= 20.40%
+   => After Task 15, test on Task 7 ACC= 19.40%
+   => After Task 15, test on Task 8 ACC= 17.40%
+   => After Task 15, test on Task 9 ACC= 11.60%
+   => After Task 15, test on Task 10 ACC= 19.40%
+   => After Task 15, test on Task 11 ACC= 23.20%
+   => After Task 15, test on Task 12 ACC= 11.40%
+   => After Task 15, test on Task 13 ACC= 15.40%
+   => After Task 15, test on Task 14 ACC= 28.20%
+   => After Task 15, test on Task 15 ACC= 65.00%
+   => After Task 16, test on Task 0 ACC= 11.40%
+   => After Task 16, test on Task 1 ACC= 22.80%
+   => After Task 16, test on Task 2 ACC= 10.80%
+   => After Task 16, test on Task 3 ACC= 19.40%
+   => After Task 16, test on Task 4 ACC= 14.00%
+   => After Task 16, test on Task 5 ACC= 15.00%
+   => After Task 16, test on Task 6 ACC= 18.00%
+   => After Task 16, test on Task 7 ACC= 12.40%
+   => After Task 16, test on Task 8 ACC= 12.40%
+   => After Task 16, test on Task 9 ACC= 28.20%
+   => After Task 16, test on Task 10 ACC= 30.60%
+   => After Task 16, test on Task 11 ACC= 27.20%
+   => After Task 16, test on Task 12 ACC= 18.20%
+   => After Task 16, test on Task 13 ACC= 17.00%
+   => After Task 16, test on Task 14 ACC= 28.60%
+   => After Task 16, test on Task 15 ACC= 32.20%
+   => After Task 16, test on Task 16 ACC= 67.20%
+   => After Task 17, test on Task 0 ACC= 20.60%
+   => After Task 17, test on Task 1 ACC= 10.40%
+   => After Task 17, test on Task 2 ACC= 17.80%
+   => After Task 17, test on Task 3 ACC= 27.20%
+   => After Task 17, test on Task 4 ACC= 14.00%
+   => After Task 17, test on Task 5 ACC= 14.80%
+   => After Task 17, test on Task 6 ACC= 21.60%
+   => After Task 17, test on Task 7 ACC= 18.60%
+   => After Task 17, test on Task 8 ACC= 22.40%
+   => After Task 17, test on Task 9 ACC= 11.40%
+   => After Task 17, test on Task 10 ACC= 10.60%
+   => After Task 17, test on Task 11 ACC= 19.80%
+   => After Task 17, test on Task 12 ACC= 43.80%
+   => After Task 17, test on Task 13 ACC= 17.00%
+   => After Task 17, test on Task 14 ACC= 13.80%
+   => After Task 17, test on Task 15 ACC= 31.40%
+   => After Task 17, test on Task 16 ACC= 25.60%
+   => After Task 17, test on Task 17 ACC= 68.40%
+   => After Task 18, test on Task 0 ACC= 21.00%
+   => After Task 18, test on Task 1 ACC= 26.20%
+   => After Task 18, test on Task 2 ACC= 6.00%
+   => After Task 18, test on Task 3 ACC= 13.20%
+   => After Task 18, test on Task 4 ACC= 17.80%
+   => After Task 18, test on Task 5 ACC= 14.40%
+   => After Task 18, test on Task 6 ACC= 13.00%
+   => After Task 18, test on Task 7 ACC= 12.80%
+   => After Task 18, test on Task 8 ACC= 20.00%
+   => After Task 18, test on Task 9 ACC= 12.60%
+   => After Task 18, test on Task 10 ACC= 6.00%
+   => After Task 18, test on Task 11 ACC= 18.00%
+   => After Task 18, test on Task 12 ACC= 57.20%
+   => After Task 18, test on Task 13 ACC= 12.80%
+   => After Task 18, test on Task 14 ACC= 21.00%
+   => After Task 18, test on Task 15 ACC= 22.80%
+   => After Task 18, test on Task 16 ACC= 29.20%
+   => After Task 18, test on Task 17 ACC= 32.20%
+   => After Task 18, test on Task 18 ACC= 77.20%
+   => After Task 19, test on Task 0 ACC= 17.00%
+   => After Task 19, test on Task 1 ACC= 17.00%
+   => After Task 19, test on Task 2 ACC= 18.80%
+   => After Task 19, test on Task 3 ACC= 16.00%
+   => After Task 19, test on Task 4 ACC= 9.20%
+   => After Task 19, test on Task 5 ACC= 16.40%
+   => After Task 19, test on Task 6 ACC= 24.80%
+   => After Task 19, test on Task 7 ACC= 20.80%
+   => After Task 19, test on Task 8 ACC= 25.20%
+   => After Task 19, test on Task 9 ACC= 13.80%
+   => After Task 19, test on Task 10 ACC= 19.00%
+   => After Task 19, test on Task 11 ACC= 18.60%
+   => After Task 19, test on Task 12 ACC= 24.80%
+   => After Task 19, test on Task 13 ACC= 16.00%
+   => After Task 19, test on Task 14 ACC= 13.20%
+   => After Task 19, test on Task 15 ACC= 23.00%
+   => After Task 19, test on Task 16 ACC= 18.60%
+   => After Task 19, test on Task 17 ACC= 24.40%
+   => After Task 19, test on Task 18 ACC= 33.20%
+   => After Task 19, test on Task 19 ACC= 58.60%
+
+=== Final Results ===
+FAA= 21.42%, AAA= 29.39%, WCA= 15.97%

@@ -1,0 +1,22 @@
+Files already downloaded and verified
+Files already downloaded and verified
+Dataset=cifar10, #Classes=10, Task splits:
+[[0, 1], [2, 3], [4, 5], [6, 7], [8, 9]]
+   => After Task 0, test on Task 0 ACC= 97.50%
+   => After Task 1, test on Task 0 ACC= 84.20%
+   => After Task 1, test on Task 1 ACC= 91.45%
+   => After Task 2, test on Task 0 ACC= 80.15%
+   => After Task 2, test on Task 1 ACC= 76.35%
+   => After Task 2, test on Task 2 ACC= 94.00%
+   => After Task 3, test on Task 0 ACC= 51.85%
+   => After Task 3, test on Task 1 ACC= 56.80%
+   => After Task 3, test on Task 2 ACC= 67.60%
+   => After Task 3, test on Task 3 ACC= 97.95%
+   => After Task 4, test on Task 0 ACC= 76.55%
+   => After Task 4, test on Task 1 ACC= 62.05%
+   => After Task 4, test on Task 2 ACC= 61.40%
+   => After Task 4, test on Task 3 ACC= 77.15%
+   => After Task 4, test on Task 4 ACC= 97.05%
+
+=== Final Results ===
+FAA= 74.84%, AAA= 82.44%, WCA= 68.85%

@@ -1,0 +1,9 @@
+wandb: Using wandb-core as the SDK backend.  Please refer to https://wandb.me/wandb-core for more information.
+wandb: Currently logged in as: pqy000 (pqythu) to https://api.wandb.ai. Use `wandb login --relogin` to force relogin
+wandb: Tracking run with wandb version 0.19.9
+wandb: Run data is saved locally in /home/panqy/A10/lunch/wandb/run-20250424_132439-3rivoyml
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run giddy-plant-3
+wandb: ⭐️ View project at https://wandb.ai/pqythu/my_cl_project_cifar100
+wandb: 🚀 View run at https://wandb.ai/pqythu/my_cl_project_cifar100/runs/3rivoyml
+wandb: WARNING Calling wandb.run.save without any arguments is deprecated.Changes to attributes are automatically persisted.
